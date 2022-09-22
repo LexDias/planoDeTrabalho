@@ -1,0 +1,8 @@
+\babel@toc {portuguese}{}\relax 
+\contentsline {section}{\numberline {1}Introdu\c {c}\~ao}{4}{section.1}%
+\contentsline {section}{\numberline {2}Trabalhos Relacionados}{5}{section.2}%
+\contentsline {section}{\numberline {3}Objetivo}{5}{section.3}%
+\contentsline {section}{\numberline {4}Escopo da Pesquisa}{6}{section.4}%
+\contentsline {section}{\numberline {5}Plano de Trabalho e Cronograma}{6}{section.5}%
+\contentsline {section}{\numberline {6}Materiais e M\'etodos}{6}{section.6}%
+\contentsline {section}{\numberline {7}Forma de An\'alise dos Resultados}{7}{section.7}%

@@ -1,0 +1,25 @@
+\begin{thebibliography}{1}
+
+\bibitem{PMID:29487619}
+A.~Voulodimos, N.~Doulamis, A.~Doulamis, and E.~Protopapadakis, ``Deep learning
+  for computer vision: A brief review,'' {\em Computational intelligence and
+  neuroscience}, vol.~2018, p.~7068349, 2018.
+
+\bibitem{fisher1988flow}
+D.~F. Fisher and R.~R. Meyer~Jr, ``Flow visualization techniques for flight
+  research,'' in {\em AGARD Symposium of the Flight Mechanics Panel on Flight
+  Test Techniques}, no.~NAS 1.15: 100455, 1988.
+
+\bibitem{Wang2003}
+S.-C. Wang, {\em Artificial Neural Network}, pp.~81--100.
+\newblock Boston, MA: Springer US, 2003.
+
+\bibitem{arxiv.1403.6382}
+A.~S. Razavian, H.~Azizpour, J.~Sullivan, and S.~Carlsson, ``Cnn features
+  off-the-shelf: an astounding baseline for recognition,'' 2014.
+
+\bibitem{arxiv.1411.1792}
+J.~Yosinski, J.~Clune, Y.~Bengio, and H.~Lipson, ``How transferable are
+  features in deep neural networks?,'' 2014.
+
+\end{thebibliography}
