@@ -51,7 +51,7 @@
 
 \newpage
 \section*{Resumo}
-Nos últimos anos, os métodos de aprendizado profundo demonstraram superar as técnicas anteriores de aprendizado de máquina de última geração em vários campos, sendo a visão computacional um dos casos mais proeminentes \cite{PMID:29487619}.
+Nos últimos anos, os métodos de aprendizado profundo demonstraram superar as técnicas anteriores de aprendizado de máquina de última geração em vários campos, sendo a visão computacional um dos casos mais proeminentes \cite{Voulodimos2018}.
 
 Neste trabalho, propõe-se a criação de um sensor inteligente que seja capaz de analisar imagens de uma superfície aerodinâmica e, em tempo real, identificar regiões desta superfície que apresentem determinadas características.
 
@@ -63,7 +63,7 @@ Para isto, será desenvolvido e treinado um modelo de redes neurais convoluciona
 \newpage
 \section*{\emph{Abstract}}
 \begin{em}
-Over the last years deep learning methods have been shown to outperform previous state-of-the-art machine learning techniques in several fields, with computer vision being one of the most prominent cases \cite{PMID:29487619}.
+Over the last years deep learning methods have been shown to outperform previous state-of-the-art machine learning techniques in several fields, with computer vision being one of the most prominent cases \cite{Voulodimos2018}.
 
 In this work, we propose the creation of an intelligent sensor that is able to analyze images of an aerodynamic surface and, in real time, identify regions of this surface that present certain characteristics.
 
@@ -78,7 +78,7 @@ For this, a model of convolutional neural networks (CNN) capable of identifying 
 \label{sec:intro}
 Na indústria aeronáutica, a necessidade de otimização da aerodinâmica é obviamente premente. Uma das técnicas frequentemente empregadas para esta otimização é a técnica de visualização de escoamento.
 
-Várias técnicas de visualização de escoamento \cite{fisher1988flow} são atualmente empregadas como visualização por fumaça, emprego de materiais sensíveis à distribuição de pressão sobre superfícies aerodinâmicas, e utilização de \emph{tuffets} (tufos).
+Várias técnicas de visualização de escoamento \cite{Fisher1988} são atualmente empregadas como visualização por fumaça, emprego de materiais sensíveis à distribuição de pressão sobre superfícies aerodinâmicas, e utilização de \emph{tuffets} (tufos).
 
 Na visualização do escoamento de superfícies aerodinâmicas em aeronaves em escala real (1:1) - em oposição à visualização em veículos em escala (empregados em túnel de vento, por exemplo) – dada a necessidade de embarcar-se a visualização durante o voo, a técnica dos tufos é preponderante sobre as demais.
 
@@ -96,7 +96,13 @@ Na indústria aeronáutica, o emprego de câmeras (de diversas resoluções e ve
 
 Com a adoção ampla do emprego de captura de imagens para visualização de escoamento, a análise dos resultados é atualmente feita por um ser humano treinado, durante reprodução das imagens gravadas a bordo. Tal técnica é frequentemente cansativa, extensa e maçante, dado o enorme volume de imagens normalmente adquiridas, além de bastante suscetível a erros (processo repetitivo) e altamente demandante.
 
-Desta forma, o emprego de visão computacional na identificação de padrões nos tufos tem o potencial de substituir a atual técnica utilizada na análise.
+Desta forma, o emprego de visão computacional na identificação de padrões nos tufos tem o potencial de substituir a atual técnica utilizada na análise, com as seguintes vantagens:
+\begin{itemize}
+    \item Consistência de resultados, eliminando o fator humano na análise de quantidades massivas de informação (imagens);
+    \item Aumento de produtividade e diminuição na demanda de atenção humana; e
+    \item Aumento da qualidade da análise ou redução dos requisitos mínimos de qualidade de equipamento e técnicas de captura da imagem. Assumindo que será possível treinar um modelo para reconhecimento de padrões em condições mais severas que aquelas necessárias para o olho humano (ex. dentro de nuvens, contra o sol, câmeras de menor resolução e velocidade).
+\end{itemize}
+
 
 \section{\sectionII}
 \label{sec:rel-work}
@@ -105,9 +111,9 @@ Desta forma, o emprego de visão computacional na identificação de padrões no
 % Busque dar uma visão ampla de trabalhos básicos fundamentais e também trabalhos mais recentes.
 Wang \cite{Wang2003} disse que representar as emoções e consciência humanas ainda estavam no reino da ficção científica. Mas, muito mais importante, nos lembrou que as redes neurais são aproximadores universais de funções e deu alguns exemplos de redes neurais para previsão de séries temporais.
 
-Atualmente, as redes neurais convolucionais fornecem uma boa base para a construção de um bom modelo de reconhecimento de padrões. Neste contexto, \cite{arxiv.1403.6382} apresenta resultados que sugerem fortemente que as \emph{features} obtidas a partir de aprendizado profundo com redes convolucionais devam ser o principal candidato na maioria das tarefas de reconhecimento visual.
+Atualmente, as redes neurais convolucionais fornecem uma boa base para a construção de um bom modelo de reconhecimento de padrões. Neste contexto, \cite{Razavian2014} apresenta resultados que sugerem fortemente que as \emph{features} obtidas a partir de aprendizado profundo com redes convolucionais devam ser o principal candidato na maioria das tarefas de reconhecimento visual.
 
-Muitos modelos têm sido disponibilizados, e têm sido bastante utilizados em tarefas de reconhecimento diferentes daquelas para os quais eles foram treinados. Esta técnica de transferência de aprendizado vem sendo largamente usada para criar novos modelos que se utilizam do conhecimento obtido pelos modelos originais. \cite{arxiv.1411.1792} quantificam generalidade versus especificidade dos neurônios em cada nível da rede e apresentam resultados que indicam transferir o aprendizado de \emph{features}, mesmo de tarefas bem diferentes, pode ser melhor do que usar \emph{features} aleatórias.
+Muitos modelos têm sido disponibilizados, e têm sido bastante utilizados em tarefas de reconhecimento diferentes daquelas para os quais eles foram treinados. Esta técnica de transferência de aprendizado vem sendo largamente usada para criar novos modelos que se utilizam do conhecimento obtido pelos modelos originais. \cite{Yosinski2014} quantificam generalidade versus especificidade dos neurônios em cada nível da rede e apresentam resultados que indicam transferir o aprendizado de \emph{features}, mesmo de tarefas bem diferentes, pode ser melhor do que usar \emph{features} aleatórias.
 
 
 \section{\sectionIII}
@@ -168,13 +174,22 @@ Onde: \ck~ a fazer; x  concluída.
 
 \section{\sectionVI}
 \label{sec:parts-methods}
-Que materiais (placas de hardware, kits de desenvolvimento, itens de medição) são necessários para desenvolver sua pesquisa?
-Quais os métodos que vc pretente utilizar para desenvolver sua pesquisa? Colocar este tipo de informação nesta seção.
+Para o desenvolvimento dos modelos será utilizada a linguagem Python e, principalmente, o pacote Pytorch.
+
+Para o treiamento dos modelos, serão necessários vídeos de ensaios passados, onde foram utilziados os tufos como técnica de visualização de escoamento.
+
+A partir destes vídeos, serão extraídas imagens (frames) e, delas, pedaços da superfície aerodinâmica onde os tufos estão presentes.
+
+De posse de uma quantidade apropriada de imagens, será necessário o envolvimento da Engenharia de Ensaios em Voo para que seja feita a classificação das imagens.
+
+Na fase final de validação do modelo durante um ensaio, serão utilizadas câmeras de vídeo de alta definição, externas à aernonave, que farão a captura dos vídeos. Para o processamento em tempo real, as rotinas de execução do modelo final obtido será convertida para a linguagem C++, visando otimização de performance.
 
 
 \section{\sectionVII}
 \label{sec:result-analysis}
-Como verificar/analisar se o que vc produziu está correto? \textit{Benchmark} disponível na literatura, estudos comparativos, reprodução de pesquisas? Como garantir a corretude dos resultados. Como verificar quão bom está o seu trabalho em relação ao que já existe atualmente?
+Num primeiro momento, cada modelo será validado através de métricas usuais, como: acurácia, precisão, sensibilidade, especificidade, e F1 score.
+
+Com o modelo validado, as imagens com regiões características de escoamento devidamente marcadas serão submetidas à Engenharia de Ensaios em Voo, para sua validação.
 
 
 % references

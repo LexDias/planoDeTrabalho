@@ -1,12 +1,12 @@
 # Fdb version 3
-["bibtex rplan"] 1663859667 "rplan.aux" "rplan.bbl" "rplan" 1663859669
+["bibtex rplan"] 1663874751 "rplan.aux" "rplan.bbl" "rplan" 1663874883
   "C:/Users/cadias/AppData/Local/Programs/MiKTeX/bibtex/bst/bibtex/ieeetr.bst" 1291864344 18361 1a00e58565e7f19bf2b3e1bfb82254ae ""
-  "refs/references.bib" 1663852930 3198 d1dd60011603262338c25ded3da4bb12 ""
-  "rplan.aux" 1663859669 2768 f049389a3c5c0ede6c8428331a14a3a3 "pdflatex"
+  "refs/references.bib" 1663863064 2422 dc45573ddb2c53eac915584030a0859a ""
+  "rplan.aux" 1663874882 2751 fd97f959b3d76a7de2cbe754ff22d281 "pdflatex"
   (generated)
   "rplan.bbl"
   "rplan.blg"
-["pdflatex"] 1663859667 "d:/Users/cadias/Documents/doc/planoDeTrabalho/rplan.tex" "rplan.pdf" "rplan" 1663859669
+["pdflatex"] 1663874881 "d:/Users/cadias/Documents/doc/planoDeTrabalho/rplan.tex" "rplan.pdf" "rplan" 1663874883
   "C:/Users/cadias/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1663844662 80909 eab91d9745dd2edfd62a31d53cd5fe15 ""
   "C:/Users/cadias/AppData/Local/MiKTeX/fonts/pk/ljfour/jknappen/ec/dpi600/tcrm1200.pk" 1663328177 14064 e11c477222712c419e7546516c488b3e ""
   "C:/Users/cadias/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1663844655 10785733 231beb6db3b93fa500c61a8d35ff0f3d ""
@@ -190,16 +190,16 @@
   "C:/Users/cadias/AppData/Local/Programs/MiKTeX/tex/latex/url/url.sty" 1388490452 12796 8edb7d69a20b857904dd0ea757c14ec9 ""
   "C:/Users/cadias/AppData/Local/Programs/MiKTeX/tex/latex/xcolor/xcolor.sty" 1656236890 56148 51a9a8571c07b9921892ae11063ae853 ""
   "C:/Users/cadias/AppData/Local/Programs/MiKTeX/tex/latex/xkeyval/xkeyval.sty" 1656236919 4937 4ce600ce9bd4ec84d0250eb6892fcf4f ""
-  "d:/Users/cadias/Documents/doc/planoDeTrabalho/rplan.tex" 1663859661 10709 a71af8094637edcc8a83d32318502428 ""
+  "d:/Users/cadias/Documents/doc/planoDeTrabalho/rplan.tex" 1663874880 12041 65f261737ac5acf341550b613abc71b1 ""
   "figs//ita_rgb.jpg" 1663852930 657741 5e81cb891dd9c536e50244125ee8c8b1 ""
   "figs//tuffets.png" 1663852930 707432 4ce3a742b8f2a32a1ec21e169ed868fa ""
   "general-settings.sty" 1663852930 3962 bc6683cffaa1cf618d26fa5b8c8c9fa1 ""
   "review-settings.sty" 1663852930 1720 ce656f70cd28ced2b51ba7fd08779fa9 ""
-  "rplan.aux" 1663859669 2768 f049389a3c5c0ede6c8428331a14a3a3 "pdflatex"
-  "rplan.bbl" 1663859667 960 08e8281f85b04444f0964cda519b2ba7 "bibtex rplan"
-  "rplan.out" 1663859669 1042 ca79f70ba1813601b831a512c9f8d9e2 "pdflatex"
-  "rplan.tex" 1663859661 10709 a71af8094637edcc8a83d32318502428 ""
-  "rplan.toc" 1663859669 574 f00ea5a7564806e5c8a7030ad369a9fb "pdflatex"
+  "rplan.aux" 1663874882 2751 fd97f959b3d76a7de2cbe754ff22d281 "pdflatex"
+  "rplan.bbl" 1663874751 1128 be2bc3d846ddf737cfdccd966a8c6f39 "bibtex rplan"
+  "rplan.out" 1663874882 1042 ca79f70ba1813601b831a512c9f8d9e2 "pdflatex"
+  "rplan.tex" 1663874880 12041 65f261737ac5acf341550b613abc71b1 ""
+  "rplan.toc" 1663874882 574 1b2d14189a336aebf7c90576f5c5df12 "pdflatex"
   (generated)
   "rplan.aux"
   "rplan.log"

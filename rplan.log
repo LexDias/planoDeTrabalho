@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.8.28) (preloaded format=pdflatex 2022.9.22)  22 SEP 2022 12:14
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.8.28) (preloaded format=pdflatex 2022.9.22)  22 SEP 2022 16:28
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -689,7 +689,7 @@ File: ./figs//tuffets.png Graphic file (type png)
 <use ./figs//tuffets.png>
 Package pdftex.def Info: ./figs//tuffets.png  used on input line 89.
 (pdftex.def)             Requested size: 432.48051pt x 259.13245pt.
- [4 <./figs//tuffets.png>] [5] [6] (rplan.bbl) [7] (rplan.aux)
+ [4 <./figs//tuffets.png>] [5] [6] [7] (rplan.bbl) [8] (rplan.aux)
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
@@ -697,17 +697,17 @@ Package rerunfilecheck Info: File `rplan.out' has not changed.
 (rerunfilecheck)             Checksum: CA79F70BA1813601B831A512C9F8D9E2;1042.
  ) 
 Here is how much of TeX's memory you used:
- 25892 strings out of 475389
- 514891 string characters out of 2776528
- 883071 words of memory out of 3000000
+ 25893 strings out of 475389
+ 514879 string characters out of 2776528
+ 884062 words of memory out of 3000000
  46774 multiletter control sequences out of 15000+600000
  477466 words of font info for 57 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 99i,9n,117p,678b,507s stack positions out of 10000i,1000n,20000p,200000b,80000s
+ 99i,9n,117p,675b,556s stack positions out of 10000i,1000n,20000p,200000b,80000s
  <C:\Users\cadias\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1200.pk><C:/Users/cadias/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/cadias/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbxti10.pfb><C:/Users/cadias/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><C:/Users/cadias/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/cadias/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on rplan.pdf (8 pages, 1447356 bytes).
+Output written on rplan.pdf (9 pages, 1449479 bytes).
 PDF statistics:
- 141 PDF objects out of 1000 (max. 8388607)
- 33 named destinations out of 1000 (max. 500000)
+ 145 PDF objects out of 1000 (max. 8388607)
+ 34 named destinations out of 1000 (max. 500000)
  79 words of extra memory for PDF output out of 10000 (max. 10000000)
 
